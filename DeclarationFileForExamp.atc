@@ -1,0 +1,42 @@
+<Category>
+  <ItemID idValue="{fe11476e-7332-437e-a212-aac2aa448796}" />
+  <Properties>
+    <ItemName>Category1</ItemName>
+    <Images>
+      <Image cx="93" cy="123" />
+    </Images>
+  </Properties>
+  <CustomData />
+  <Source />
+  <Palettes />
+  <Packages />
+  <Tools>
+    <Tool>
+      <ItemID idValue="{327b636e-c6cc-4117-887d-a9489a66f57d}" />
+      <Properties>
+        <ItemName>Армогрунт</ItemName>
+        <Images>
+          <Image cx="64" cy="64" />
+        </Images>
+        <Help>
+          <HelpFile />
+          <HelpCommand />
+          <HelpData />
+        </Help>
+      </Properties>
+      <Source />
+      <StockToolRef idValue="{7F55AAC0-0256-48D7-BFA5-914702663FDE}" />
+      <Data>
+        <AeccDbSubassembly>
+          <GeometryGenerateMode>UseDotNet</GeometryGenerateMode>
+          <DotNetClass Assembly=".\exampleSubassembly.dll">exampleSubassembly.SubExample</DotNetClass>
+          <Params>
+            
+          </Params>
+        </AeccDbSubassembly>
+        <Units>m</Units>
+      </Data>
+    </Tool>
+  </Tools>
+  <StockTools />
+</Category>
