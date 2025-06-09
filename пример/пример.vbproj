@@ -45,15 +45,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="acdbmgd">
-      <HintPath>..\..\..\..\..\Apps\AutoCAD\AutoCAD 2024\acdbmgd.dll</HintPath>
+      <HintPath>D:\Apps\AutoCAD\AutoCAD 2024\acdbmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AecBaseMgd">
-      <HintPath>..\..\..\..\..\Apps\AutoCAD\AutoCAD 2024\AecBaseMgd.dll</HintPath>
+      <HintPath>D:\Apps\AutoCAD\AutoCAD 2024\AecBaseMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AeccDbMgd">
-      <HintPath>..\..\..\..\..\Apps\AutoCAD\AutoCAD 2024\C3D\AeccDbMgd.dll</HintPath>
+      <HintPath>D:\Apps\AutoCAD\AutoCAD 2024\C3D\AeccDbMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

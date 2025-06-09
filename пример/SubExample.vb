@@ -9,7 +9,7 @@ Public Class SubExample
     ' *************************************************************************
     ' *************************************************************************
     ' *************************************************************************
-    '          Name: BasicLane
+    '          Name: Reinforcement Soil
     '
     '   Description: Creates a simple cross-sectional representation of a reinforcement soil wall composed of an array of geogrids.Attachment origin
     '                is at bottom.
@@ -222,7 +222,7 @@ Public Class SubExample
             Utilities.RecordError(corridorState, CorridorError.ValueShouldNotBeLessThanOrEqualToZero, "Шаг георешеток", "Geogrid")
             gStep = vStepDefault
         End If
-        Dim soilWidth As Double = (width + 1) ' * flip
+        Dim soilWidth As Double = (width + 1)
         If corridorState.Mode = CorridorMode.Design Then 'при построении элементов внутри коридора
             'находим трассу и ориджин для рассматриваемого сечения
             Dim oOrigin As New PointInMem '(это точка в рассматриваемом сечении, относительно которой строится текущий элемент констр. при переносе элемента, ориджин помогает не потеряться в сечении)
